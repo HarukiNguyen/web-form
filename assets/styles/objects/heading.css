@@ -1,0 +1,7 @@
+.heading {
+  margin-bottom: 35px;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  color: var(--dark-color);
+  letter-spacing: 2px;
+}

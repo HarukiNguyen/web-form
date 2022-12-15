@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/favicon/site.webmanifest" />
+
+    <link rel="stylesheet" href="./assets/styles/main.css" />
+    <script src="./assets/scripts/main.js" type="module"></script>
+    <title>Signup and login form</title>
+  </head>
+  <body>
+    <!-- signup form -->
+    <!-- The s character at the form control ID stands for signup -->
+    <form action="" method="POST" class="form signup">
+      <h1 class="heading">Sign up</h1>
+      <ul class="form-list">
+        <li class="form-group">
+          <span class="label-icon">
+            <img src="assets/icons/user.png" alt="User icon" />
+          </span>
+          <label for="s-username" class="form-label">Username</label>
+          <input
+            type="text"
+            class="form-control"
+            id="s-username"
+            placeholder="Enter username..."
+            s-username
+            validate-required
+          />
+        </li>
+        <li class="form-group">
+          <span class="label-icon">
+            <img src="assets/icons/email.png" alt="Email icon" />
+          </span>
+          <label for="email" class="form-label input-optional">Email</label>
+          <input
+            type="text"
+            class="form-control"
+            id="email"
+            email
+            placeholder="Enter your email..."
+          />
+        </li>
+        <li class="form-group">
+          <span class="label-icon">
+            <img src="assets/icons/pwd.png" alt="Password icon" />
+          </span>
+          <label for="s-pwd" class="form-label">Password</label>
+          <input
+            type="password"
+            class="form-control"
+            id="s-pwd"
+            placeholder="Enter password..."
+            validate-required
+            s-password
+          />
+        </li>
+        <li class="form-group">
+          <span class="label-icon">
+            <img src="assets/icons/pwd.png" alt="Password icon" />
+          </span>
+          <label for="pwd-confirm" class="form-label"
+            >Confirm your password</label
+          >
+          <input
+            type="password"
+            class="form-control"
+            id="pwd-confirm"
+            placeholder="Enter your password again..."
+            validate-required
+            confirm
+          />
+        </li>
+        <li class="form-group">
+          <button type="submit" class="form-btn s-btn">Sign up</button>
+        </li>
+      </ul>
+    </form>
+    <!-- end signup form -->
+
+    <!-- login form -->
+    <!-- The l character at the form control ID stands for login -->
+    <form action="" method="POST" class="form login">
+      <h1 class="heading">Log in</h1>
+      <ul class="form-list">
+        <li class="form-group">
+          <span class="label-icon">
+            <img src="assets/icons/user.png" alt="User icon" />
+          </span>
+          <label for="l-username" class="form-label">Username</label>
+          <input
+            type="text"
+            class="form-control"
+            id="l-username"
+            placeholder="Enter your username..."
+            l-username
+            validate-required
+          />
+        </li>
+        <li class="form-group">
+          <span class="label-icon">
+            <img src="assets/icons/user.png" alt="User icon" />
+          </span>
+          <label for="l-pwd" class="form-label">Password</label>
+          <input
+            type="password"
+            class="form-control"
+            id="l-pwd"
+            placeholder="Enter your password..."
+            validate-required
+            l-password
+          />
+        </li>
+        <li class="form-group">
+          <button type="submit" class="form-btn l-btn">Log in</button>
+        </li>
+      </ul>
+      <!-- tooltip -->
+      <div class="tooltip">
+        <span class="data">Username: username</span>
+        <span class="data">Password: password</span>
+        <span class="desc"
+          >** This project is under development so I use fixed login data for
+          testing.</span
+        >
+      </div>
+      <!-- end tooltip -->
+    </form>
+    <!-- end login form -->
+
+    <!-- redirect popup -->
+    <div class="redirect-popup">
+      <p class="redirect-text">
+        Redirecting to homepage (Actually, this's the end.)
+      </p>
+    </div>
+    <!-- end redirect popup -->
+  </body>
+</html>

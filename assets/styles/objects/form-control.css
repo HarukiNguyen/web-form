@@ -1,0 +1,18 @@
+.form-control {
+  width: 100%;
+  font-size: 1.7rem;
+  border-radius: 4px;
+  outline: none;
+}
+
+.form-control {
+  position: relative;
+  padding: 12px 11px;
+  border: 1px solid #e8e3cd;
+  background-color: var(--extra-color);
+}
+
+.form-control:hover,
+.form-control:focus {
+  border-color: #999999;
+}

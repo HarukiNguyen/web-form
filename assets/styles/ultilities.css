@@ -1,0 +1,31 @@
+.valid {
+  border-color: var(--valid-color);
+}
+
+.valid:hover,
+.valid:focus {
+  background-color: #d1ffe1;
+  border-color: var(--valid-color);
+}
+
+.invalid {
+  border-color: var(--invalid-color);
+}
+
+.invalid:hover,
+.invalid:focus {
+  background-color: #ffd8d5;
+  border-color: var(--invalid-color);
+}
+
+.form-label.input-optional::after {
+  content: 'optional';
+  position: absolute;
+  padding: 1px 6px;
+  top: 0;
+  right: 0;
+  background-color: #b4ffde;
+  border-radius: 2px;
+  font-size: 1.3rem;
+  color: #1b4332;
+}

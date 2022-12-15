@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('../fonts/PlayfairDisplay-VariableFont.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('../fonts/PlayfairDisplay-Italic-VariableFont.ttf')
+    format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+:root {
+  --light-color: #ffffff;
+  --dark-color: #022174;
+  --extra-color: #fcf4d1;
+  --valid-color: #75ffa6;
+  --invalid-color: #ff8478;
+  --text-color: #333333;
+}

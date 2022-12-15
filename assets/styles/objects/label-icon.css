@@ -1,0 +1,10 @@
+.label-icon {
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+  margin-right: 9px;
+}
+
+.label-icon > img {
+  width: 14px;
+}

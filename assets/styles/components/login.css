@@ -1,0 +1,9 @@
+.login {
+  display: none;
+}
+
+@media all and (min-width: 25em) {
+  .login {
+    animation: bounceInRl 2s ease forwards;
+  }
+}

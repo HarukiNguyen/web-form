@@ -1,0 +1,9 @@
+@keyframes slideOutRl {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    transform: translateX(-600px);
+  }
+}

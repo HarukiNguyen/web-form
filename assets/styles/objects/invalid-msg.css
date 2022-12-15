@@ -1,0 +1,5 @@
+.invalid-msg {
+  font-size: 14px;
+  margin-top: 7px;
+  color: var(--invalid-color);
+}

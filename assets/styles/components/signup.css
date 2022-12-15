@@ -1,0 +1,21 @@
+@media all and (min-width: 25em) {
+  .signup {
+    animation: slideInTb 2s ease forwards;
+  }
+}
+
+@keyframes slideInTb {
+  from {
+    opacity: 0;
+    /* FIXME: 
+    ** The text color property at the beginning is a temporary fix for an error  
+    ** text's color isn't #333333 at the beginning of the animation.
+    */
+    color: var(--text-color);
+    transform: translateY(-1000px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

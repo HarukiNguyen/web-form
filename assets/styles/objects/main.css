@@ -1,0 +1,13 @@
+@import 'form.css';
+@import 'heading.css';
+@import 'form-group.css';
+@import 'label-icon.css';
+@import 'label.css';
+@import 'form-control.css';
+@import 'form-btn.css';
+@import 'invalid-msg.css';
+/* animation */
+@import 'slideOutRl-ani.css';
+@import 'bounceInRl-ani.css';
+@import 'fadeIn-ani.css';
+@import 'fadeOut-ani.css';
