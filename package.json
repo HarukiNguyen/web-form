@@ -1,0 +1,15 @@
+{
+  "name": "web-form",
+  "packageManager": "yarn@3.3.0",
+  "dependencies": {
+    "@harukinguyen/validatorjs": "^1.0.3"
+  },
+  "description": "This is a small project that I use to test my @harukinguyen/validatorjs library",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Haruki Nguyen <nmd03pvt@gmail.com>",
+  "license": "ISC"
+}
