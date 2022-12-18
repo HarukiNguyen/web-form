@@ -2,7 +2,7 @@
   "name": "web-form",
   "packageManager": "yarn@3.3.0",
   "dependencies": {
-    "@harukinguyen/validatorjs": "^1.0.6"
+    "@harukinguyen/validatorjs": "^1.0.8"
   },
   "description": "This is a small project that I use to test my @harukinguyen/validatorjs library",
   "version": "1.0.0",
